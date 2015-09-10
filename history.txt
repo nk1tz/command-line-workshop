@@ -1,0 +1,89 @@
+    1  git branch changes-workshop
+    2  git checkout changes-workshop
+    3  git add .
+    4  git commit -m "Changed griffincamp to la commune in footer"
+    5  git push origin changes-workshop
+    6  git branch changes-workshop-visual
+    7  checkout changes-workshop-visual
+    8  git checkout changes-workshop-visual
+    9  git status
+   10  git add .
+   11  git status
+   12  git commit -m "Made three visual changes - intro section gradient, main body bg-color, and footer color"
+   13  git push origin changes-workshop-visual
+   14  git checkout changes-workshop
+   15  git status
+   16  git add .
+   17  git commit -m "Found the last Griffincamp mention in about-pages"
+   18  git push origin changes-workshop
+   19  git checkout master
+   20  git checkout changes-workshop
+   21  git diff
+   22  git checkout --
+   23  git status
+   24  git push origin changes-workshop
+   25  git checkout changes-workshop-visual
+   26  git status
+   27  git commit -m "Made sure only Visuals changes present"
+   28  git add .
+   29  git commit -m "Made sure only Visuals changes present"
+   30  git push origin changes-workshp-visual
+   31  git changes
+   32  git --help
+   33  git tree
+   34  tree
+   35  git log --help
+   36  git log --graph
+   37  git branch -a
+   38  it branch master-alt
+   39  git branch master-alt
+   40  git checkout master-alt
+   41  git checkout changes-workshop
+   42  git status
+   43  git add.
+   44  git add 
+   45  git add .
+   46  git commit -m "Found two more instances of GriffinCamp"
+   47  git push origin changes-workshop
+   48  git add .
+   49  git commit -m "Oops I put back the comma!"
+   50  git push origin changes-workshop
+   51  git checkout master-alt
+   52  git status
+   53  git branch -a
+   54  git merge changes-workshop
+   55  git merge visual-changes-revisited
+   56  git checkout master
+   57  git branch -a
+   58  git branch master-alt2
+   59  git checkout master-alt2
+   60  git checkout visual-changes-revisited
+   61  git rebase changes-workshop
+   62  git checkout master-alt2
+   63  git merge visual-changes-revisited
+   64  git add .
+   65  git status
+   66  git push origin master-alt2
+   67  grep --recursive "griffin"
+   68  grep "griffin"
+   69  grep recursive -i griffin
+   70  history
+   71  history | grep --recursive -i "help"
+   72  grep "help" history
+   73  history > history.txt
+   74  ls
+   75  grep "help" history.txt
+   76  ls
+   77  cd ..
+   78  mkdir command-line
+   79  ls
+   80  cd command-line/
+   81  cd ..
+   82  git clone git@github.com:nk1tz/command-line-workshop.git command-line
+   83  cd command-line/
+   84  branch-history
+   85  git branch cmd-history
+   86  git checkout cmd-history
+   87  history < history.txt
+   88  ls
+   89  history > history.txt
