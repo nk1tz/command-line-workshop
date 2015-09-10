@@ -1,0 +1,1 @@
+Tthere are 60 words in poem.txt
